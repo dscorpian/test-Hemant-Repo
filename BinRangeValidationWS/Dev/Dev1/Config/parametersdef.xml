@@ -1,0 +1,7 @@
+<ParameterDefinitions>
+  <Parameter Name="TenderHintsconnectionString" Attribute="connectionString" File="%AppPath%\web.config" XPath="configuration/connectionStrings/add[@name='TenderHints']"/>
+  <Parameter Name="EntitiesconnectionString" Attribute="connectionString" File="%AppPath%\web.config" XPath="configuration/connectionStrings/add[@name='BinRangeEntities']"/>
+  <Parameter Name="endpoint" Attribute="address" File="%AppPath%\web.config" XPath="configuration/system.serviceModel/client/endpoint[@name='BasicHttpBinding_SecureVaultServiceContract1']"/>
+  <Parameter Name="CacheExpire" Attribute="value" File="%AppPath%\web.config" XPath="configuration/appSettings/add[@key='CacheExpireMinutes']"/>
+  <Parameter Name="smokeTestEndPoint" Attribute="address" File="%AppPath%\bin\BinRangeValidationWS.SmokeTest.dll.config" XPath="configuration/system.serviceModel/client/endpoint[@name='BasicHttpBinding_BinRangeValidationServiceContract']"/>
+</ParameterDefinitions>
