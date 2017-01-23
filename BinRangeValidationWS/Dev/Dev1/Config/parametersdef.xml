@@ -5,4 +5,4 @@
   <Parameter Name="CacheExpire" Attribute="value" File="%AppPath%\web.config" XPath="configuration/appSettings/add[@key='CacheExpireMinutes']"/>
   <Parameter Name="smokeTestEndPoint" Attribute="address" File="%AppPath%\bin\BinRangeValidationWS.SmokeTest.dll.config" XPath="configuration/system.serviceModel/client/endpoint[@name='BasicHttpBinding_BinRangeValidationServiceContract']"/>
 </ParameterDefinitions>
-ok done
+
