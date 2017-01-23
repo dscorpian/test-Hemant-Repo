@@ -1,0 +1,602 @@
+<Server>
+  <Variables>
+    <Variable Name="AppPath">D:\Inetpub\websrvhub\BinRangeValidationWS</Variable>
+    <Variable Name="AppLogs">D:\LogFiles</Variable>
+  </Variables>
+  <DTW01TASAP01C>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://DTW01TASAP01C.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">10080</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://DTW01TASAP01C.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </DTW01TASAP01C>
+  <DTW01TASAP02C>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://DTW01TASAP02C.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">10080</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://DTW01TASAP02C.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </DTW01TASAP02C>
+  <DTW01TASAP03C>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://DTW01TASAP03C.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">10080</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://DTW01TASAP03C.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </DTW01TASAP03C>
+  <DTW01TASAP04C>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://DTW01TASAP04C.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">10080</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://DTW01TASAP04C.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </DTW01TASAP04C>
+  <PTW01TASAP01C>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PTW01TASAP01C.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PTW01TASAP01C.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PTW01TASAP01C>
+  <PTW01TASAP02C>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PTW01TASAP02C.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PTW01TASAP02C.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PTW01TASAP02C>
+  <PTW02TASAP01D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PTW02TASAP01D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PTW02TASAP01D.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PTW02TASAP01D>
+  <PTW02TASAP02D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PTW02TASAP02D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PTW02TASAP02D.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PTW02TASAP02D>
+  <PLW01TASAP01A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW01TASAP01A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW01TASAP01A.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW01TASAP01A>
+  <PLW01TASAP01B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW01TASAP01B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW01TASAP01B.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW01TASAP01B>
+  <PLW01TASAP02A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW01TASAP02A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW01TASAP02A.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW01TASAP02A>
+  <PLW01TASAP02B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW01TASAP02B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW01TASAP02B.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW01TASAP02B>
+  <PLW02TASAP01D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW02TASAP01D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW02TASAP01D.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW02TASAP01D>
+  <PLW02TASAP02D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW02TASAP02D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW02TASAP02D.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW02TASAP02D>
+  <PLW02TASAP03D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW02TASAP03D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW02TASAP03D.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW02TASAP03D>
+  <PLW02TASAP04D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLW02TASAP04D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+        <Parameter Name="smokeTestEndPoint">https://PLW02TASAP04D.na.bestbuy.com/BinRangeValidationWS/BinRangeValidation.svc</Parameter>
+      </Parameters>
+    </Config>
+  </PLW02TASAP04D>
+  <DTW01TASWB002>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://dtw01taswb002.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">10080</Parameter>
+      </Parameters>
+    </Config>
+  </DTW01TASWB002>
+  <PTW01TASWB001>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://ptw01taswb001.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PTW01TASWB001>
+  <PTW01TASWB002>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://ptw01taswb002.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PTW01TASWB002>
+  <HSQ03WHUB>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://hsq03whub.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </HSQ03WHUB>
+  <HSQ04WHUB>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DTW01GENDB001,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DTW01GENDB001,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://hsq04whub.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </HSQ04WHUB>
+  <PLTW01TASWB001>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=HVQ67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=HVQ67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLTW01TASWB001.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PLTW01TASWB001>
+  <PLTW01TASWB002>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=HVQ67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=HVQ67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLTW01TASWB002.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PLTW01TASWB002>
+  <PLTW01TASWB003>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=HVQ67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=HVQ67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLTW01TASWB003.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PLTW01TASWB003>
+  <PLTW01TASWB004>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=HVQ67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=HVQ67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PLTW01TASWB004.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PLTW01TASWB004>
+  <PDW01TASWB001>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASWB001.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASWB001>
+  <PDW01TASWB002>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASWB002.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASWB002>
+  <PDW01TASWB003>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASWB003.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASWB003>
+  <PDW01TASWB004>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASWB004.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASWB004>
+  <PDW01TASWB005>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASWB005.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASWB005>
+  <PDW01TASWB006>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASWB006.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASWB006>
+  <HSP20WHUB>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://HSP20WHUB.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </HSP20WHUB>
+  <HSP21WHUB>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://HSP21WHUB.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </HSP21WHUB>
+  <HSP22WHUB>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://HSP22WHUB.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </HSP22WHUB>
+  <HSP23WHUB>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://HSP23WHUB.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </HSP23WHUB>
+  <PDW02TASWB001>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASWB001.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASWB001>
+  <PDW02TASWB002>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASWB002.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASWB002>
+  <PDW01TASAP01A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP01A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP01A>
+  <PDW01TASAP01B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP01B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP01B>
+  <PDW01TASAP02A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP02A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP02A>
+  <PDW01TASAP02B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP02B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP02B>
+  <PDW01TASAP03A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP03A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP03A>
+  <PDW01TASAP03B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP03B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP03B>
+  <PDW01TASAP04A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP04A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP04A>
+  <PDW01TASAP04B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP04B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP04B>
+  <PDW01TASAP05A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TASAP05A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TASAP05A>
+  <PDW02TASAP01D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP01D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP01D>
+  <PDW02TASAP02D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP02D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP02D>
+  <PDW02TASAP03D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP03D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP03D>
+  <PDW02TASAP04D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP04D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP04D>
+  <PDW02TASAP05D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP05D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP05D>
+  <PDW02TASAP06D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP06D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP06D>
+  <PDW02TASAP07D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP07D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP07D>
+  <PDW02TASAP08D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TASAP08D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TASAP08D>
+  <PDW01TEXAP01A>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TEXAP01A.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TEXAP01A>
+  <PDW01TEXAP01B>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW01TEXAP01B.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW01TEXAP01B>
+  <PDW02TEXAP01D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TEXAP01D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TEXAP01D>
+  <PDW02TEXAP02D>
+    <Config>
+      <Parameters>
+        <Parameter Name="TenderHintsconnectionString">Server=DVP67DB01,63518;Initial Catalog=STGDB001;Integrated Security=true</Parameter>
+        <Parameter Name="EntitiesconnectionString">metadata=res://*/DataAccess.BinRangeModel.csdl|res://*/DataAccess.BinRangeModel.ssdl|res://*/DataAccess.BinRangeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DVP67DB01,63518;initial catalog=POSFDN001;integrated security=True;multipleactiveresultsets=True;App=EntityFramework&quot;</Parameter>
+        <Parameter Name="endpoint">https://PDW02TEXAP02D.na.bestbuy.com/SecureVaultWS/SecureVault.svc</Parameter>
+        <Parameter Name="CacheExpire">2880</Parameter>
+      </Parameters>
+    </Config>
+  </PDW02TEXAP02D>
+</Server>
